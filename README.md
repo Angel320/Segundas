@@ -26,7 +26,7 @@ En los siguientes códigos tenemos el controlador que presenta varias funciones 
 
 
 
-En esta vista, se tiene una condición IF que valida la respuesta del controlador ya una vez guardo el registro en nuestro modelo, en caso de que sea así, se mostrara el mensaje de que el registro se ah guardado con éxito, en caso contrario, no muestra nada o muestra algún mensaje de error que indique que hubo un problema al guardar.
+En esta vista, se tiene una condición IF que valida la respuesta del controlador ya una vez guardo el registro en nuestro modelo, en caso de que sea así, se mostrara el mensaje de que el registro se ah guardado con éxito, en caso contrario, no muestra nada o muestra algún mensaje de error que indique que hubo un problema al guardar o falta algun campo por llenar.
  
    <img src="https://github.com/Angel320/Segundas/blob/main/codigo3.jpg">
 
