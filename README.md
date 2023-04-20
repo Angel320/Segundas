@@ -8,22 +8,18 @@ El sistema consta de 3 opciones para registrar, alumnos, otra para profesores y 
 
 <img src="https://github.com/Angel320/Segundas/blob/main/menu.jpg">
 
-
+------
 Como mencionamos anteriormente, en las siguientes capturas se muestra el registro de las 3 opciones mencionadas, para nuestro diseño MVC, primero el usuario ingresa los datos correspondientes, este envia la solicitud del registro en donde en nuestro controlador se encarga de verificar los datos y una vez que se haya guardado en el modelo, se envia una respuesta grafica mediante un mensaje que indique que el registro fue guardado correctamente.
  
- <img src="https://github.com/Angel320/Segundas/blob/main/registro.jpg">
+ <img src="https://github.com/Angel320/Segundas/blob/main/registro1.jpg">
  <img src="https://github.com/Angel320/Segundas/blob/main/registro2.jpg">
  <img src="https://github.com/Angel320/Segundas/blob/main/registro3.jpg">
-
- 
-
-
-
-
 
 
 
 En los siguientes códigos tenemos el controlador que presenta varias funciones para poder guardar correctamente el registro, desde la conexión a la BD y comprobar los datos del registro, una vez se haya guardado correctamente, se envía una respuesta a la vista del formulario en donde si la respuesta es afirmativa entonces se mostrara el susodicho mensaje que se ve en las anteriores capturas. 
+
+ <img src="https://github.com/Angel320/Segundas/blob/main/codigo1.jpg">
 
 
 
