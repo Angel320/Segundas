@@ -20,6 +20,7 @@ Como mencionamos anteriormente, en las siguientes capturas se muestra el registr
 En los siguientes códigos tenemos el controlador que presenta varias funciones para poder guardar correctamente el registro, desde la conexión a la BD y comprobar los datos del registro, una vez se haya guardado correctamente, se envía una respuesta a la vista del formulario en donde si la respuesta es afirmativa entonces se mostrara el susodicho mensaje que se ve en las anteriores capturas. 
 
  <img src="https://github.com/Angel320/Segundas/blob/main/codigo1.jpg">
+ <img src="https://github.com/Angel320/Segundas/blob/main/codigo2.jpg">
 
 
 
@@ -27,7 +28,8 @@ En los siguientes códigos tenemos el controlador que presenta varias funciones 
 
 En esta vista, se tiene una condición IF que valida la respuesta del controlador ya una vez guardo el registro en nuestro modelo, en caso de que sea así, se mostrara el mensaje de que el registro se ah guardado con éxito, en caso contrario, no muestra nada o muestra algún mensaje de error que indique que hubo un problema al guardar.
  
-  <img src="https://github.com/Angel320/Segundas/blob/main/codigo2.jpg">
+   <img src="https://github.com/Angel320/Segundas/blob/main/codigo3.jpg">
+
 
 ------
 
@@ -40,7 +42,7 @@ En la opción de reportes, se presentan 3 tipos de tablas con información regis
  	
 Para poder gestionar las acciones de las tablas que muestran los registros, creamos un controlador el cual dependiendo de la acción enviara al modelo (nuestra base de datos) la petición de la acción que el usuario hizo, devolviéndole una respuesta grafica en la vista donde este se actualiza en caso de modificar el registro, o este se borra en caso de eliminar el registro, dependiendo de la tabla, se usara una función u otra.
 
-   <img src="https://github.com/Angel320/Segundas/blob/main/codigo3.jpg">
+   <img src="https://github.com/Angel320/Segundas/blob/main/codigo4.jpg">
 
 
 
